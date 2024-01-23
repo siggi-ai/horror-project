@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-slate-800 h-screen">
         <p class="px-6 text-emerald-400">
             Alone <br>
 
