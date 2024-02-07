@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        rubik: ['Rubik Scribble']
+        rubik: ['Rubik Glitch']
       }
     },
   },
