@@ -38,5 +38,6 @@ import YourHorrorStory from '../components/YourHorrorStory.vue';
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
 }
 </style>
