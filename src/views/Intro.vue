@@ -1,16 +1,16 @@
 <template>
   <header
-    class="relative flex items-center justify-center h-screen mb-12 overflow-hidden"
+    class="relative flex items-center justify-center h-screen overflow-hidden"
   >
     <div class="body">
       <div
-        class="relative -pt-20 h-5 flex z-30 items-center justify-center text-7xl font-rubik sm:text-9xl flex-shrink"
+        class="relative flex z-30 items-center justify-center font-rubik flex-shrink mb-96"
       >
-        <router-link to="home">
-          <h2 class="hero glitch layers" data-text="Horror">
-            <span>Horror</span>
-          </h2>
-        </router-link>
+          <router-link to="home">
+            <h2 class="hero glitch layers" data-text="Horror">
+              <span>Horror</span>
+            </h2>
+          </router-link>
       </div>
     </div>
 

@@ -6,18 +6,22 @@
 
     <YourHorrorStory class="" />
 
-    <h2 class="p-7 text-center text-5xl text-fuchsia-500 font-rubik">Welcome to the Darkness</h2>
+    <h2 class="p-7 text-center text-5xl text-fuchsia-500 font-rubik">
+      Welcome to the Darkness
+    </h2>
     <!-- <div class="myDIV">Hover over me.</div>
     <div class="hide">Something lies hidden beneath the surface.</div> -->
-    <p class="p-3 text-center text-5xl animate-bounce">⬇️</p>
+    <!--     <div class="flex justify-center items-center">
+      <img class="p-3 text-5xl animate-bounce" src="/images/arrow.png" />
+    </div> -->
     <div class="flex flex-col md:flex-row justify-center items-center">
-
-      <router-link to="Cinema"><img src="/images/d1.jpg" alt="dark room with door sligthly opened" /></router-link>
-      <router-link to="Library"><img src="/images/d1.jpg" alt="dark room with door sligthly opened" /></router-link>
-      
-      
+      <router-link to="Cinema"
+        ><img src="/images/d1.jpg" alt="dark room with door sligthly opened"
+      /></router-link>
+      <router-link to="Library"
+        ><img src="/images/d1.jpg" alt="dark room with door sligthly opened"
+      /></router-link>
     </div>
-    
 
     <div class="p-8 h-4 flex items-center justify-center pt-10">
       <button class="button hide">

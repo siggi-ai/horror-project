@@ -8,6 +8,6 @@
 
 <style scoped>
 .body {
-  background-image: url("/images/Library.jpg");
+  background-image: url("/images/Library1.jpg");
 }
 </style>
