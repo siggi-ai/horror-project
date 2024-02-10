@@ -9,11 +9,13 @@
     <h2 class="p-7 text-center text-5xl text-fuchsia-500 font-rubik">Welcome to the Darkness</h2>
     <!-- <div class="myDIV">Hover over me.</div>
     <div class="hide">Something lies hidden beneath the surface.</div> -->
-    <p class="p-3 text-center text-5xl animate-bounce">🤡</p>
+    <p class="p-3 text-center text-5xl animate-bounce">⬇️</p>
     <div class="flex flex-col md:flex-row justify-center items-center">
 
-      <img src="/images/d1.jpg" alt="dark room with door sligthly opened" />
-      <img src="/images/d1.jpg" alt="dark room with door sligthly opened" />
+      <router-link to="Cinema"><img src="/images/d1.jpg" alt="dark room with door sligthly opened" /></router-link>
+      <router-link to="Library"><img src="/images/d1.jpg" alt="dark room with door sligthly opened" /></router-link>
+      
+      
     </div>
     
 
