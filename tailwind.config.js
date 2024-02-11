@@ -7,7 +7,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        rubik: ['Rubik Glitch']
+        rubik_glitch: ['Rubik Glitch'],
+        rubik_burned: ['Rubik Burned'],
+        rubik_scribble: ['Rubik Scribble'],
+        rubik_paint: ['Rubik Wet Paint'],
       }
     },
   },

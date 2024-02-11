@@ -4,7 +4,7 @@
   >
     <div class="body">
       <div
-        class="relative flex z-30 items-center justify-center font-rubik flex-shrink mb-96"
+        class="relative flex z-30 items-center justify-center font-rubik_glitch flex-shrink mb-96"
       >
           <router-link to="home">
             <h2 class="hero glitch layers" data-text="Horror">

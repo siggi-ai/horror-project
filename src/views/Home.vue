@@ -1,19 +1,27 @@
 <template>
-  <div class="body">
+  <div class="bg-black">
+
+    <div class="flex">
+      <router-link to="/">
+        <img src="/images/arrow_left_bold_crooked.png" class="w-28"/>
+      </router-link>
+      <h2 class="p-7 text-5xl text-fuchsia-500 font-rubik_burned">
+        Welcome to the Darkness
+      </h2>
+    </div>
+    
     <!-- <div class="cat">
       <img src="/images/cat face.png" alt="drawing of cat-face" />
     </div> -->
-
-    <YourHorrorStory class="" />
-
-    <h2 class="p-7 text-center text-5xl text-fuchsia-500 font-rubik">
-      Welcome to the Darkness
-    </h2>
-    <!-- <div class="myDIV">Hover over me.</div>
+        <!-- <div class="myDIV">Hover over me.</div>
     <div class="hide">Something lies hidden beneath the surface.</div> -->
     <!--     <div class="flex justify-center items-center">
       <img class="p-3 text-5xl animate-bounce" src="/images/arrow.png" />
     </div> -->
+
+    <YourHorrorStory class="" />
+
+
     <div class="flex flex-col md:flex-row justify-center items-center">
       <router-link to="Cinema"
         ><img src="/images/d1.jpg" alt="dark room with door sligthly opened"
@@ -34,9 +42,6 @@
 <script setup></script>
 
 <style scoped>
-.body {
-  background-color: black;
-}
 .button:hover + .hide {
   color: transparent;
   background-color: red;
