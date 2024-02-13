@@ -11,6 +11,10 @@ export default {
         rubik_burned: ['Rubik Burned'],
         rubik_scribble: ['Rubik Scribble'],
         rubik_paint: ['Rubik Wet Paint'],
+      },
+      backgroundImage: {
+        'cinema': 'url("/images/cinema.jpg")',
+        'library': 'url("/images/Library.jpg")',
       }
     },
   },
